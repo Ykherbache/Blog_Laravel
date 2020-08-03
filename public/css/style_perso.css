@@ -1,0 +1,62 @@
+html {
+    min-height: 100%;
+}
+body {
+    background: linear-gradient(rgba(0,0,0,25%), #FFFFFF);
+}
+.white_background_round_border {
+    background: rgba(255, 255, 255, 0.34);
+    padding: 1%;
+    margin: 1%;
+    box-shadow: 0 0 10px 4px rgba(0,0,0,0.2);
+    transition: all 0.5s ease-in-out;
+}
+.titleOfDiv {
+position:absolute;
+top: -10px;
+left:40%;
+padding:0,5%;
+margin:0;
+background: rgba(255, 255, 255,60%);
+width:fit-content;
+font-weight: bold;
+}
+
+.postDiv {
+    position: relative;
+    margin-bottom: 2%;
+}
+.formDiv {
+    position: relative;
+    width: fit-content;
+    margin: 2%;
+    padding: 5%;
+    text-align: center;
+}
+.formDiv form {
+    margin-top: 7%;
+}
+.formDiv textarea {
+    resize: both;
+    margin-top: 5%;
+    width: 20em;
+    height: 10em;
+}
+.Btn-Create-Post {
+    background-color: #4ed80e65;
+    padding: 1%;
+    border: 0px solid #FFFFFF;
+    font-weight: bold;
+}
+
+.Btn-Create-Post:hover {
+    transition: all 2s ease-out ;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+}
+.lastComs {
+    margin: 0;
+}
+.Unselectable_text {
+    user-select: none;
+}
