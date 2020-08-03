@@ -1,13 +1,18 @@
 ## About This project
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 This is a blog i made using laravel, nothing fancy, i didn't use eloquent to persist my data rather i used typical sql/mysql to create by my side (that's why some forms lack security).
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Features of this blog :
+
 I wanted this blog to have a Post and comment system, any logged in user can add a Post or Comment and guests (non authethified users) will just get redirected to home page.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## the objectif of this project was to get a feel of how laravel's mvc workflow works. 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Stuff i learnt doing this project :
+
+## Stuff i learnt doing this project :
 	---
 	Different value of directories :
 		-- app/http/controllers/'Controller name' we create new controllers with command php artisan make:controller 'controller name'
