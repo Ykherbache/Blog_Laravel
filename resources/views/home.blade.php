@@ -17,12 +17,13 @@
                         </div>
                         <br>
                         <p>{{ $post->content }}</p>
-                        <form action="{{ route('Ajouter un commentaire') }}" method="POST">
-                            @csrf
-
-                            <input type="hidden" name="id_post" value="{{ $post->id }}">
-                            <input type="submit" value="Ajouter un commentaire">
-                        </form>
+                        @auth
+                            <form action="{{ route('Ajouter un commentaire') }}" method="POST">
+                                @csrf
+                                <input type="hidden" name="id_post" value="{{ $post->id }}">
+                                <input type="submit" value="Ajouter un commentaire">
+                            </form>
+                        @endauth
                     </div>
                 @endforeach
             </div>
