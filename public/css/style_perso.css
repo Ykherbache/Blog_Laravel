@@ -12,6 +12,9 @@ body {
     box-shadow: 0 0 10px 4px rgba(0,0,0,0.2);
     transition: all 0.5s ease-in-out;
 }
+.py-4 > .row {
+    margin-right:0;
+}
 .titleOfDiv {
 position:absolute;
 top: -10px;
